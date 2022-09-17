@@ -1,8 +1,6 @@
 const time = new Date();
 
 module.exports= (req, res)=>{
-  res.statusCode = 200;
-  res.setHeader = ("Content-Type", "application/json");
   res.json({
     doctor: {
       name: "Josias",
@@ -24,6 +22,6 @@ module.exports= (req, res)=>{
       isBusy: false,
       doctor: "Josias",
       patient: "Maria",
-    },
+    }
   });
 }
