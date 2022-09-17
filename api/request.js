@@ -3,7 +3,7 @@ const time = new Date();
 export function request(req, res) {
   res.statusCode = 200;
   res.setHeader = ("Content-Type", "application/json");
-  res.json({
+  res.end({
     doctor: {
       name: "Josias",
       crm: "COT-12345-SER43R",
