@@ -3,7 +3,7 @@ const time = new Date();
 module.exports= (req, res)=>{
   res.statusCode = 200;
   res.setHeader = ("Content-Type", "application/json");
-  res.end({
+  res.json({
     doctor: {
       name: "Josias",
       crm: "COT-12345-SER43R",
