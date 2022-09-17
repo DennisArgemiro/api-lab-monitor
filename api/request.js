@@ -1,6 +1,6 @@
 const time = new Date();
 
-export function request(req, res) {
+module.exports= (req, res)=>{
   res.statusCode = 200;
   res.setHeader = ("Content-Type", "application/json");
   res.end({
