@@ -41,11 +41,35 @@ module.exports= (req, res)=>{
         state: false,
       }]
     },
-    machines:{
-        name: "",
-        lastUse: "",
-        lastUser: "",
+    machines:[{
+        name:"Centrifuga",
+        lastUse: "10/07",
+        lastUser: "Josias",
+        state: false,
+      },
+      {
+        name:"Agitador",
+        lastUse: "06/07",
+        lastUser: "Josias",
         state: true,
-    }
+      },
+      {
+        name:"Espectrofotômetro",
+        lastUse: "10/07",
+        lastUser: "Josias",
+        state: false,
+      },
+      {
+        name:"Estufa",
+        lastUse: "12/07",
+        lastUser: "Josias",
+        state: false,
+      },
+      {
+        name:"Autoclave",
+        lastUse: "01/08",
+        lastUser: "Josias",
+        state: false,
+      }]
   });
 }
