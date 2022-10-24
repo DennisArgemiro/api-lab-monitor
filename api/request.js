@@ -11,6 +11,7 @@ module.exports = (req, res) => {
     },
     machine: {
       id: 01,
+      name: "centrifuga",
       busy: false,
       lastMaintence: time.getDate(),
     },
