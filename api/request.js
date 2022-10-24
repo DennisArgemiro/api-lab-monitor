@@ -18,14 +18,19 @@ module.exports = (req, res) => {
     storage: [
       {
         id: 01,
-        name: "insulina",
+        name: "Luva de predero",
         type: "insumos",
       },
       {
         id:02,
         name: "Tubo de ensaio",
-        type: "geral"
+        type: "insumos"
       },
+      {
+        id: 3,
+        name: "reagente 1",
+        type: "reagente"
+      }
     ],
   });
 };
