@@ -13,7 +13,7 @@ module.exports = (req, res) => {
       id: 01,
       name: "centrifuga",
       busy: false,
-      lastMaintence: time.getUTCDate()
+      lastMaintence: "12/12/2022"
         },
     storage: [
       {
